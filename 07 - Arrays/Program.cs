@@ -48,6 +48,8 @@ namespace _07___Arrays
 
             Boolean valid = false;
             string inputValueType;
+            //different way of doing the above for the below version
+            // string inputValueType = string.Empty;
 
             Console.Write("Enter a value : ");
             string inputValue = Console.ReadLine();
@@ -80,6 +82,8 @@ namespace _07___Arrays
                     inputValueType = "Boolean";
                     break;
                 default:
+                    //can do this 2 different ways : go to top of file to see different way
+                    inputValueType = "unknown";
                     Console.WriteLine("Not able to detect input type, something went wrong");
                     break;
             }
