@@ -87,8 +87,13 @@ namespace _07___Arrays
             Console.WriteLine("You have entered a value : {0}", inputValue);
             if(valid)
             {
-                Console.WriteLine("It is valid :")
+                Console.WriteLine("It is valid : {0}", inputValueType);
             }
+            else
+            {
+                Console.WriteLine("It is invlaid : {0}", inputValueType);
+            }
+            Console.ReadKey();
         }
 
         // creating method for isAllAlphabetic
